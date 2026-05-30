@@ -1,0 +1,188 @@
+{
+  "uid" : "4e7e7b144b437374",
+  "name" : "test_fail",
+  "fullName" : "test_base#test_fail",
+  "historyId" : "7b522668e9c684308fee98777f3ba538",
+  "time" : {
+    "start" : 1779786298772,
+    "stop" : 1779786298772,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 4 > 5",
+  "statusTrace" : "@pytest.mark.ut\n    def test_fail():\n        c=random.randint(1,9)\n>       assert c>5\nE       assert 4 > 5\n\ntest_base.py:12: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "ff",
+    "time" : {
+      "start" : 1779786298772,
+      "stop" : 1779786298772,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1779786298772,
+      "stop" : 1779786298772,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1779786298753,
+      "stop" : 1779786298753,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1779786298753,
+      "stop" : 1779786298753,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1779786298753,
+      "stop" : 1779786298753,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "f",
+    "time" : {
+      "start" : 1779786298772,
+      "stop" : 1779786298772,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 4 > 5",
+    "statusTrace" : "@pytest.mark.ut\n    def test_fail():\n        c=random.randint(1,9)\n>       assert c>5\nE       assert 4 > 5\n\ntest_base.py:12: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8bc7733c3c04efb8",
+      "name" : "log",
+      "source" : "8bc7733c3c04efb8.txt",
+      "type" : "text/plain",
+      "size" : 243
+    }, {
+      "uid" : "4118b1b171cd2208",
+      "name" : "stdout",
+      "source" : "4118b1b171cd2208.txt",
+      "type" : "text/plain",
+      "size" : 135
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "f::0",
+    "time" : {
+      "start" : 1779786299124,
+      "stop" : 1779786299124,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "ut"
+  }, {
+    "name" : "suite",
+    "value" : "test_base"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-IEBIFCG2"
+  }, {
+    "name" : "thread",
+    "value" : "208584-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_base"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "ut" ]
+  },
+  "source" : "4e7e7b144b437374.json",
+  "parameterValues" : [ ]
+}

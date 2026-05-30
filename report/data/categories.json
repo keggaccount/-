@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 4 > 5",
+      "children" : [ {
+        "name" : "test_fail",
+        "uid" : "4e7e7b144b437374",
+        "parentUid" : "775865296472a0f5e7bf62c9d46c3e38",
+        "status" : "failed",
+        "time" : {
+          "start" : 1779786298772,
+          "stop" : 1779786298772,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "775865296472a0f5e7bf62c9d46c3e38"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "ValueError: invalid literal for int() with base 10: 'a'",
+      "children" : [ {
+        "name" : "test_ddt[a-b-195]",
+        "uid" : "b84ded4e7fe45631",
+        "parentUid" : "30c2c23ef144af1ca435877296a53b71",
+        "status" : "broken",
+        "time" : {
+          "start" : 1779786299149,
+          "stop" : 1779786299149,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'a'", "'b'", "'195'" ]
+      } ],
+      "uid" : "30c2c23ef144af1ca435877296a53b71"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

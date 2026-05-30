@@ -1,0 +1,189 @@
+{
+  "uid" : "73469a3a77123fc4",
+  "name" : "hh",
+  "fullName" : "allure_test#test_ff",
+  "historyId" : "025f88f98ac5d7fe181e89aa28e11daf",
+  "time" : {
+    "start" : 1779786298762,
+    "stop" : 1779786298762,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1779786298753,
+      "stop" : 1779786298753,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "f",
+    "time" : {
+      "start" : 1779786298761,
+      "stop" : 1779786298761,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1779786298753,
+      "stop" : 1779786298753,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "ff",
+    "time" : {
+      "start" : 1779786298761,
+      "stop" : 1779786298761,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1779786298761,
+      "stop" : 1779786298761,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1779786298753,
+      "stop" : 1779786298753,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c491d2faa156b515",
+      "name" : "log",
+      "source" : "c491d2faa156b515.txt",
+      "type" : "text/plain",
+      "size" : 243
+    }, {
+      "uid" : "3734909b51f45872",
+      "name" : "stdout",
+      "source" : "3734909b51f45872.txt",
+      "type" : "text/plain",
+      "size" : 135
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "f::0",
+    "time" : {
+      "start" : 1779786298762,
+      "stop" : 1779786298762,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "XXX"
+  }, {
+    "name" : "feature",
+    "value" : "YYY"
+  }, {
+    "name" : "story",
+    "value" : "cc"
+  }, {
+    "name" : "tag",
+    "value" : "ut"
+  }, {
+    "name" : "suite",
+    "value" : "allure_test"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-IEBIFCG2"
+  }, {
+    "name" : "thread",
+    "value" : "208584-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "allure_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "ut" ]
+  },
+  "source" : "73469a3a77123fc4.json",
+  "parameterValues" : [ ]
+}

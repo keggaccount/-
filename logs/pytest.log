@@ -1,0 +1,59 @@
+WARNING  2026-05-26 17 :04 :58 [pytest_result_log:122] :-------------------------Start: allure_test.py::test_hh-------------------------
+INFO     2026-05-26 17 :04 :58 [pytest_result_log:190] :test status is PASSED (allure_test.py::test_hh): 
+WARNING  2026-05-26 17 :04 :58 [pytest_result_log:128] :--------------------------End: allure_test.py::test_hh--------------------------
+WARNING  2026-05-26 17 :04 :58 [pytest_result_log:122] :-------------------------Start: allure_test.py::test_ff-------------------------
+INFO     2026-05-26 17 :04 :58 [pytest_result_log:190] :test status is PASSED (allure_test.py::test_ff): 
+WARNING  2026-05-26 17 :04 :58 [pytest_result_log:128] :--------------------------End: allure_test.py::test_ff--------------------------
+WARNING  2026-05-26 17 :04 :58 [pytest_result_log:122] :--------------------------Start: test_base.py::test_ok--------------------------
+INFO     2026-05-26 17 :04 :58 [pytest_result_log:190] :test status is PASSED (test_base.py::test_ok): 
+WARNING  2026-05-26 17 :04 :58 [pytest_result_log:128] :---------------------------End: test_base.py::test_ok---------------------------
+WARNING  2026-05-26 17 :04 :58 [pytest_result_log:122] :-------------------------Start: test_base.py::test_fail-------------------------
+ERROR    2026-05-26 17 :04 :59 [pytest_result_log:190] :test status is FAILED (test_base.py::test_fail): AssertionError
+INFO     2026-05-26 17 :04 :59 [pytest_result_log:194] :test_base.py::test_fail -> @pytest.mark.ut
+    def test_fail():
+        c=random.randint(1,9)
+>       assert c>5
+E       assert 4 > 5
+
+test_base.py:12: AssertionError
+WARNING  2026-05-26 17 :04 :59 [pytest_result_log:128] :--------------------------End: test_base.py::test_fail--------------------------
+WARNING  2026-05-26 17 :04 :59 [pytest_result_log:122] :-------------------Start: test_example.py::Test_add::test_add-------------------
+INFO     2026-05-26 17 :04 :59 [pytest_result_log:190] :test status is PASSED (test_example.py::Test_add::test_add): 
+WARNING  2026-05-26 17 :04 :59 [pytest_result_log:128] :--------------------End: test_example.py::Test_add::test_add--------------------
+WARNING  2026-05-26 17 :04 :59 [pytest_result_log:122] :-------------------Start: test_example.py::Test_add::test_str-------------------
+INFO     2026-05-26 17 :04 :59 [pytest_result_log:190] :test status is PASSED (test_example.py::Test_add::test_str): 
+WARNING  2026-05-26 17 :04 :59 [pytest_result_log:128] :--------------------End: test_example.py::Test_add::test_str--------------------
+WARNING  2026-05-26 17 :04 :59 [pytest_result_log:122] :------------------Start: test_example.py::Test_add::test_list-------------------
+INFO     2026-05-26 17 :04 :59 [pytest_result_log:190] :test status is PASSED (test_example.py::Test_add::test_list): 
+WARNING  2026-05-26 17 :04 :59 [pytest_result_log:128] :-------------------End: test_example.py::Test_add::test_list--------------------
+WARNING  2026-05-26 17 :04 :59 [pytest_result_log:122] :--------------Start: test_example.py::Test_add::test_ddt[a-b-195]---------------
+ERROR    2026-05-26 17 :04 :59 [pytest_result_log:190] :test status is FAILED (test_example.py::Test_add::test_ddt[a-b-195]): ValueError
+INFO     2026-05-26 17 :04 :59 [pytest_result_log:194] :test_example.py::Test_add::test_ddt[a-b-195] -> self = <test_example.Test_add object at 0x000001B3D8BE5900>, a = 'a', b = 'b'
+c = '195'
+
+    @pytest.mark.ddt
+    @pytest.mark.parametrize(
+        "a,b,c",
+        data("data.csv")
+    )
+    def test_ddt(self,a,b,c):
+>       assert add(int(a),int(b))==int(c)
+E       ValueError: invalid literal for int() with base 10: 'a'
+
+test_example.py:27: ValueError
+WARNING  2026-05-26 17 :04 :59 [pytest_result_log:128] :---------------End: test_example.py::Test_add::test_ddt[a-b-195]----------------
+WARNING  2026-05-26 17 :04 :59 [pytest_result_log:122] :---------------Start: test_example.py::Test_add::test_ddt[1-2-3]----------------
+INFO     2026-05-26 17 :04 :59 [pytest_result_log:190] :test status is PASSED (test_example.py::Test_add::test_ddt[1-2-3]): 
+WARNING  2026-05-26 17 :04 :59 [pytest_result_log:128] :----------------End: test_example.py::Test_add::test_ddt[1-2-3]-----------------
+WARNING  2026-05-26 17 :04 :59 [pytest_result_log:122] :---------------Start: test_example.py::Test_add::test_ddt[2-2-4]----------------
+INFO     2026-05-26 17 :04 :59 [pytest_result_log:190] :test status is PASSED (test_example.py::Test_add::test_ddt[2-2-4]): 
+WARNING  2026-05-26 17 :04 :59 [pytest_result_log:128] :----------------End: test_example.py::Test_add::test_ddt[2-2-4]-----------------
+WARNING  2026-05-26 17 :04 :59 [pytest_result_log:122] :---------------Start: test_example.py::Test_add::test_ddt[5-5-10]---------------
+INFO     2026-05-26 17 :04 :59 [pytest_result_log:190] :test status is PASSED (test_example.py::Test_add::test_ddt[5-5-10]): 
+WARNING  2026-05-26 17 :04 :59 [pytest_result_log:128] :----------------End: test_example.py::Test_add::test_ddt[5-5-10]----------------
+WARNING  2026-05-26 17 :04 :59 [pytest_result_log:122] :---------------Start: test_example.py::Test_add::test_ddt[1-4-5]----------------
+INFO     2026-05-26 17 :04 :59 [pytest_result_log:190] :test status is PASSED (test_example.py::Test_add::test_ddt[1-4-5]): 
+WARNING  2026-05-26 17 :04 :59 [pytest_result_log:128] :----------------End: test_example.py::Test_add::test_ddt[1-4-5]-----------------
+WARNING  2026-05-26 17 :04 :59 [pytest_result_log:122] :--------------------------Start: test_web.py::test_web--------------------------
+INFO     2026-05-26 17 :05 :02 [pytest_result_log:190] :test status is PASSED (test_web.py::test_web): 
+WARNING  2026-05-26 17 :05 :02 [pytest_result_log:128] :---------------------------End: test_web.py::test_web---------------------------

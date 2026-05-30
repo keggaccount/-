@@ -1,0 +1,200 @@
+{
+  "uid" : "b84ded4e7fe45631",
+  "name" : "test_ddt[a-b-195]",
+  "fullName" : "test_example.Test_add#test_ddt",
+  "historyId" : "6c5db469855d63fc49cb9b79a54276f4",
+  "time" : {
+    "start" : 1779786299149,
+    "stop" : 1779786299149,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "ValueError: invalid literal for int() with base 10: 'a'",
+  "statusTrace" : "self = <test_example.Test_add object at 0x000001B3D8BE5900>, a = 'a', b = 'b'\nc = '195'\n\n    @pytest.mark.ddt\n    @pytest.mark.parametrize(\n        \"a,b,c\",\n        data(\"data.csv\")\n    )\n    def test_ddt(self,a,b,c):\n>       assert add(int(a),int(b))==int(c)\nE       ValueError: invalid literal for int() with base 10: 'a'\n\ntest_example.py:27: ValueError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "ff",
+    "time" : {
+      "start" : 1779786299148,
+      "stop" : 1779786299148,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1779786298753,
+      "stop" : 1779786298753,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1779786298753,
+      "stop" : 1779786298753,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1779786299147,
+      "stop" : 1779786299148,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1779786298753,
+      "stop" : 1779786298753,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "f",
+    "time" : {
+      "start" : 1779786299148,
+      "stop" : 1779786299148,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "ValueError: invalid literal for int() with base 10: 'a'",
+    "statusTrace" : "self = <test_example.Test_add object at 0x000001B3D8BE5900>, a = 'a', b = 'b'\nc = '195'\n\n    @pytest.mark.ddt\n    @pytest.mark.parametrize(\n        \"a,b,c\",\n        data(\"data.csv\")\n    )\n    def test_ddt(self,a,b,c):\n>       assert add(int(a),int(b))==int(c)\nE       ValueError: invalid literal for int() with base 10: 'a'\n\ntest_example.py:27: ValueError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f9f4601033f8cba5",
+      "name" : "log",
+      "source" : "f9f4601033f8cba5.txt",
+      "type" : "text/plain",
+      "size" : 243
+    }, {
+      "uid" : "b0ff4cc044df43e3",
+      "name" : "stdout",
+      "source" : "b0ff4cc044df43e3.txt",
+      "type" : "text/plain",
+      "size" : 135
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "f::0",
+    "time" : {
+      "start" : 1779786299155,
+      "stop" : 1779786299155,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "ddt"
+  }, {
+    "name" : "suite",
+    "value" : "test_example"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_add"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-IEBIFCG2"
+  }, {
+    "name" : "thread",
+    "value" : "208584-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_example"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "'a'"
+  }, {
+    "name" : "b",
+    "value" : "'b'"
+  }, {
+    "name" : "c",
+    "value" : "'195'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "ddt" ]
+  },
+  "source" : "b84ded4e7fe45631.json",
+  "parameterValues" : [ "'a'", "'b'", "'195'" ]
+}

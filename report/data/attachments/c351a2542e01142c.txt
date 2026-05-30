@@ -1,0 +1,4 @@
+我也是fixture，被另一个fixtrue使用
+2026-05-26 17:04:59 用例开始执行时间
+<selenium.webdriver.chrome.webdriver.WebDriver (session="00bef30e4b4e4e8dfe3f46fa1c4ceed1")>
+2026-05-26 17:05:05 用例结束执行时间
