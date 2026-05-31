@@ -1,6 +1,6 @@
 import pytest
 import random
-
+from test_example import add
 @pytest.mark.hhh
 def test_ok(f):
     # print(f)
@@ -8,7 +8,7 @@ def test_ok(f):
 
 @pytest.mark.ut
 def test_fail():
-    c=random.randint(1,9)
+    c=add(1,9)
     assert c>5
 
 
